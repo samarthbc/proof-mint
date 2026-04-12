@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 36 100% 98%;
+    --foreground: 215 28% 17%;
+    --card: 0 0% 100%;
+    --card-foreground: 215 28% 17%;
+    --primary: 24 95% 53%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 196 90% 95%;
+    --secondary-foreground: 205 100% 16%;
+    --muted: 34 35% 94%;
+    --muted-foreground: 214 16% 46%;
+    --accent: 193 88% 92%;
+    --accent-foreground: 205 100% 16%;
+    --destructive: 0 72% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 210 33% 88%;
+    --input: 210 33% 85%;
+    --ring: 24 95% 53%;
+    --radius: 0.85rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+}
