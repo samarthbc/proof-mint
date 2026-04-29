@@ -49,10 +49,10 @@ module.exports = {
         floatIn: 'floatIn 600ms ease-out both',
       },
       fontFamily: {
-        sans: ['"Sora"', '"IBM Plex Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        sans: ['"Inter"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
-        glow: '0 0 40px rgba(251, 146, 60, 0.25)',
+        glow: '0 0 0 1px hsl(240 5% 18%), 0 4px 24px rgba(0,0,0,0.4)',
       },
     },
   },
